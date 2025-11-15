@@ -1,3 +1,6 @@
+## Prototype HTML5 Assignment
+[Prototype HTML5 Assignment](https://guyoncyberspace.github.io/ifsc-11003/Prototype%20HTML5%20Assignment.html)
+
 ## CSS Diner Proof
 ![CSS Diner Proof](https://guyoncyberspace.github.io/ifsc-11003/CSS%20Diner%20Proof.png)
 
@@ -7,5 +10,10 @@
 ## Grid Garden Proof
 ![Grid Garden Proof](https://guyoncyberspace.github.io/ifsc-11003/Grid%20Garden%20Proof.png)
 
-## Prototype HTML5 Assignment
-[Prototype HTML5 Assignment](https://guyoncyberspace.github.io/ifsc-11003/Prototype%20HTML5%20Assignment.html)
+## Positioning Lab
+
+- [Positioning Lab Index](https://guyoncyberspace.github.io/ifsc-11003/positioning-lab/)
+- [Exercise 1 – Float](https://guyoncyberspace.github.io/ifsc-11003/positioning-lab/exercise1.html)
+- [Exercise 2 – Float Row](https://guyoncyberspace.github.io/ifsc-11003/positioning-lab/exercise2.html)
+- [Exercise 3 – Absolute Corners](https://guyoncyberspace.github.io/ifsc-11003/positioning-lab/exercise3.html)
+- [Exercise 4 – Absolute + Center](https://guyoncyberspace.github.io/ifsc-11003/positioning-lab/exercise4.html)
