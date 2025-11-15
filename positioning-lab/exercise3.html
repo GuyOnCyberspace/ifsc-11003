@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise 3</title>
+<style>
+html{box-sizing:border-box;}*,*:before,*:after{box-sizing:inherit;}
+body{background:#ECECEC;font-weight:bold;font-family:Tahoma,Geneva,sans-serif;color:#FFF;text-align:center;line-height:24px;margin:0;}
+
+h1{color:#000;font-weight:normal;padding:40px;margin:0;}
+
+.box{
+  width:140px;
+  height:140px;
+  position:absolute;
+  padding-top:10px;      
+  line-height:normal;   
+  text-shadow:2px 2px #000;
+}
+
+#navy{background:#001f3f;top:0;left:0;}
+#teal{background:#39CCCC;top:0;right:0;}
+#blue{background:#0074D9;bottom:0;left:0;}
+#aqua{background:#7FDBFF;bottom:0;right:0;}
+
+#wrapper{
+  background:#FFF;
+  border:1px solid #c0c0c0;
+  width:900px;
+  height:210px;       
+  margin:auto;
+  margin-top:60px;
+  position:relative;
+  text-shadow:2px 2px #000;
+}
+
+#footer{
+  background:#666;
+  width:140px;
+  height:140px;
+  padding-top:10px;      
+  line-height:normal;   
+  position:absolute;
+  top:35px;           
+  left:50%;
+  transform:translateX(-50%);
+}
+</style>
+</head>
+<body>
+
+<h1>Exercise</h1>
+
+<div id="navy" class="box">Navy</div>
+<div id="teal" class="box">Teal</div>
+<div id="blue" class="box">Blue</div>
+<div id="aqua" class="box">Aqua</div>
+
+<section id="wrapper">
+  <div id="footer">Footer</div>
+</section>
+
+</body>
+</html>
+
