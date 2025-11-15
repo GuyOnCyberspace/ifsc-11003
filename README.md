@@ -8,4 +8,4 @@
 ![Grid Garden Proof](https://guyoncyberspace.github.io/ifsc-11003/Grid%20Garden%20Proof.png))
 
 ## Prototype HTML5 Assignment
-![Prototype HTML5 Assignment](https://guyoncyberspace.github.io/ifsc-11003/Prototype%20HTML5%20Assignment.html)
+[Prototype HTML5 Assignment](https://guyoncyberspace.github.io/ifsc-11003/Prototype%20HTML5%20Assignment.html)
