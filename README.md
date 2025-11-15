@@ -19,7 +19,7 @@
 - [Exercise 4 – Absolute + Center](https://guyoncyberspace.github.io/ifsc-11003/positioning-lab/exercise4.html)
 
 ## CSS Grid Lab
-- [Grid Lab Index](https://guyoncyberspace.github.io/ifsc-11003/css-grid-lab/)
+- [Grid Lab Index](https://guyoncyberspace.github.io/ifsc-11003/css-grid-lab/index.html)
 - [Two Column – Left Aside](https://guyoncyberspace.github.io/ifsc-11003/css-grid-lab/grid-two-col-left.html)
 - [Two Column – Right Aside](https://guyoncyberspace.github.io/ifsc-11003/css-grid-lab/grid-two-col-right.html)
 - [Two Column – Stacked](https://guyoncyberspace.github.io/ifsc-11003/css-grid-lab/grid-two-col-stacked.html)
