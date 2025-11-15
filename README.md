@@ -1,8 +1,11 @@
-<p><a href="https://guyoncyberspace.github.io/ifsc-11003/Prototype%20HTML5%20Assignment.html">Prototype HTML5 Assignment</a></p>
+## CSS Diner Proof
+![CSS Diner Proof](https://guyoncyberspace.github.io/ifsc-11003/CSS%20Diner%20Proof.png)
 
-<img src="https://guyoncyberspace.github.io/ifsc-11003/Flexbox%20Froggy%20Proof.png" alt="Flexbox Froggy Proof">
+## Flexbox Froggy Proof
+![Flexbox Froggy Proof](https://guyoncyberspace.github.io/ifsc-11003/Flexbox%20Froggy%20Proof.png)
 
-<img src="https://guyoncyberspace.github.io/ifsc-11003/CSS%20Diner%20Proof.png" alt="CSS Diner Proof">
+## Grid Garden Proof
+![Grid Garden Proof](https://guyoncyberspace.github.io/ifsc-11003/Grid%20Garden%20Proof.png))
 
-<img src="https://guyoncyberspace.github.io/ifsc-11003/Grid%20Garden%20Proof.png" alt="Grid Garden Proof">
-
+## Prototype HTML5 Assignment
+![Prototype HTML5 Assignment](https://guyoncyberspace.github.io/ifsc-11003/Prototype%20HTML5%20Assignment.html)
