@@ -258,13 +258,13 @@ main {
   overflow-x: auto;
   border-radius: 0.9rem;
   border: 1px solid var(--border);
-  background-color: var(--card-bg);
+  background-color: var(--bg);
 }
 
 table {
-  border-collapse: collapse;
   width: 100%;
-  min-width: 480px;
+  border-collapse: collapse;
+  background-color: var(--bg);
 }
 
 caption {
@@ -290,6 +290,10 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(odd) {
   background-color: var(--bg-alt);
+}
+
+td, th {
+  border-top: 1px solid var(--border);
 }
 
 .external-link-section {
