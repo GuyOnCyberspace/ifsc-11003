@@ -132,7 +132,7 @@ nav {
 }
 
 .main-nav a {
-  color: #e5e7eb;
+  color: var(--text);
   text-decoration: none;
   font-size: 0.95rem;
   padding: 0.25rem 0;
