@@ -285,9 +285,12 @@ thead th {
   color: var(--text);
 }
 
-tbody tr {
+tbody tr:nth-child(even) {
   background-color: var(--card-bg);
-  color: var(--text);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--bg-alt);
 }
 
 td, th {
