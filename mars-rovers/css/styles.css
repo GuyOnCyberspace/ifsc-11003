@@ -280,12 +280,20 @@ td {
 }
 
 thead th {
-  background-color: #020617;
-  font-weight: 600;
+  background-color: var(--bg-alt);
+  color: var(--text);
 }
 
 tbody tr:nth-child(even) {
-  background-color: #030712;
+  background-color: var(--card-bg);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--bg-alt);
+}
+
+td, th {
+  border-top: 1px solid var(--border);
 }
 
 .external-link-section {
