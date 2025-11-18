@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NASA Mars Rovers – FAQ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frequently asked questions about NASA's Mars rovers and the Martian environment.">
+  <meta name="keywords" content="Mars FAQ, NASA rovers FAQ, Perseverance, Curiosity, Mars questions">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header role="banner">
+    <div class="top-bar">
+      <img src="images/nasa-logo.png" alt="Official NASA logo" class="logo">
+      <div class="site-title">
+        <h1>NASA Mars Rovers</h1>
+        <p class="tagline">Robotic Explorers on the Red Planet</p>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        Dark Mode
+      </button>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">Mission History</a></li>
+        <li><a href="faq.html" aria-current="page">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <p>
+        This page answers common questions about Mars, NASA's rover missions, and how robotic
+        explorers operate so far from Earth.
+      </p>
+    </section>
+
+    <section aria-label="FAQ list" class="faq-list">
+      <article class="faq-item">
+        <h3>Why send rovers to Mars instead of humans?</h3>
+        <p>
+          Rovers can operate in extreme environments without risking human life. They can test
+          landing systems, study hazards like dust and radiation, and collect data needed to plan
+          safe human missions in the future.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>How long does it take a rover command to reach Mars?</h3>
+        <p>
+          The one-way travel time for radio signals between Earth and Mars varies with distance,
+          typically from about 5 to more than 20 minutes. Rovers must be able to drive and operate
+          safely with a delay, using onboard software and autonomy.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>What powers Curiosity and Perseverance?</h3>
+        <p>
+          Both rovers use radioisotope power systems, which convert heat from the natural decay of
+          plutonium into electricity. This allows them to operate day and night and through dusty
+          seasons when sunlight is limited.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>How do rovers look for signs of past life?</h3>
+        <p>
+          Rovers study rocks and sediments that formed in ancient lakes, rivers, or deltas. They
+          use cameras and spectrometers to identify minerals and organic molecules that could have
+          preserved evidence of past microbial life.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Can rovers bring samples back to Earth?</h3>
+        <p>
+          Perseverance is designed to collect and store samples in sealed tubes. Future missions,
+          currently being planned, aim to pick up those tubes and return them to Earth for detailed
+          laboratory analysis.
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Is this an official NASA website?</h3>
+        <p>
+          No. This site is a student project created for educational purposes. For official
+          information, visit the
+          <a href="https://www.nasa.gov" target="_blank" rel="noopener">NASA website</a>.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <section aria-labelledby="contact-heading" class="contact-section">
+  <h2 id="contact-heading">Contact the Project Creator</h2>
+  <p>If you have questions about this student project, feel free to reach out.</p>
+
+  <form action="#" method="post" aria-describedby="contact-desc" class="contact-form">
+    <p id="contact-desc" class="visually-hidden">
+      Contact form to send a message to the project creator.
+    </p>
+
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input id="name" name="name" type="text" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input id="email" name="email" type="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="btn-submit">Send Message</button>
+  </form>
+</section>
+  
+  <footer role="contentinfo">
+    <p>
+      This website was created as a student project for educational purposes.
+      NASA is not affiliated with or endorsing this work.
+    </p>
+    <p>
+      Contact the site maintainer:
+      <a href="mailto:dsburton@ualr.edu">dsburton@ualr.edu</a>
+    </p>
+  </footer>
+
+  <script src="https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/js/script.js"></script>
+</body>
+</html>
