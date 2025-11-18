@@ -292,10 +292,6 @@ tbody tr:nth-child(odd) {
   background-color: var(--bg-alt);
 }
 
-td, th {
-  border-top: 1px solid var(--border);
-}
-
 .external-link-section {
   margin-bottom: 2.5rem;
   padding: 1.2rem 1.4rem;
