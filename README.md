@@ -29,3 +29,6 @@
 - [Home Page](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/index.html)
 - [Mission History](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/history.html)
 - [FAQ](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/faq.html)
+
+## Progressive Enhancement Thoughts
+ [Progressive Enhancement Thoughts](https://guyoncyberspace.github.io/ifsc-11003/Progressive%20Enhancement%20Assignment.html)
