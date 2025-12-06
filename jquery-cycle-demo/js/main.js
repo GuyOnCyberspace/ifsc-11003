@@ -26,7 +26,9 @@ $('.quote-rotator').cycle({
   timeout: 4000,
   pauseOnHover: true,
   slides: '> li',
-  slideResize: 0,
-  height: 'auto'
-  });
+  before: function (curr, next, opts) {
+    // match container height to the incoming slide
+    $(next).parent().height($(next).outerHeight(true));
+  }
+});
 });
