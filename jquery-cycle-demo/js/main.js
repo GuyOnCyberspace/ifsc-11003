@@ -21,10 +21,12 @@ $('.quote-rotator').cycle({
 
   // Horizontal-scrolling news ticker
   $('.news-ticker').cycle({
-    fx: 'scrollHorz',
-    speed: 700,
-    timeout: 4000,
-    pauseOnHover: true,
-    slides: '> li'
+  fx: 'scrollHorz',
+  speed: 700,
+  timeout: 4000,
+  pauseOnHover: true,
+  slides: '> li',
+  slideResize: 0,
+  height: 'auto'
   });
 });
