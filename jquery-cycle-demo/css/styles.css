@@ -80,7 +80,9 @@ h1 {
   border: 1px solid #ccc;
   font-size: 14px;
   line-height: 1.5;
+  min-height: 120px; /* min-height picked so tallest quote fits; increase if quotes overflow container */
 }
+
 
 .quote-rotator p {
   margin: 0 0 8px;
@@ -102,6 +104,8 @@ h1 {
   background: #f2f2f2;
   border: 1px solid #ccc;
 }
+
+
 
 .news-ticker li {
   margin: 8px 0;
