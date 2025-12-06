@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>jQuery Cycle – Gallery, Quotes, Ticker</title>
+  <meta name="description" content="Example page demonstrating the jQuery Cycle plugin for a slideshow, quote rotator, and news ticker." />
+  <meta name="author" content="Your Name" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- jQuery (Google CDN) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <!-- jQuery Cycle (same major version as 8.html) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
+
+  <script src="js/main.js"></script>
+</head>
+<body>
+
+  <div class="page-wrap">
+
+    <h1>jQuery Cycle Plugin Demo</h1>
+    <p class="intro">
+      The examples below show one way to apply the Cycle plugin to a photo gallery,
+      quote rotator, and news ticker using the same core script with different selectors
+      and options.
+    </p>
+
+    <!-- Photo Gallery -->
+    <section class="section-block">
+      <h2>Photo Gallery</h2>
+      <div class="photo-rotator">
+        <img src="img/1.jpg" alt="Wakeboarder launching off the wake" />
+        <img src="img/2.jpg" alt="Wakeboarder grabbing the board mid-air" />
+        <img src="img/3.jpg" alt="Wakeboarder floating high above the water" />
+        <img src="img/4.jpg" alt="Boat pulling a wakeboarder across the lake" />
+        <img src="img/5.jpg" alt="Wakeboarder stretched out over the water" />
+      </div>
+    </section>
+
+    <!-- Quote Rotator -->
+    <section class="section-block">
+      <h2>Quote Rotator</h2>
+      <div class="quote-rotator">
+        <blockquote>
+          <p>
+            “Design is where science and art break even.”
+          </p>
+          <footer>— Robin Mathew</footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            “Styles come and go. Good design is a language, not a style.”
+          </p>
+          <footer>— Massimo Vignelli</footer>
+        </blockquote>
+        <blockquote>
+          <p>
+            “Simplicity is about subtracting the obvious and adding the meaningful.”
+          </p>
+          <footer>— John Maeda</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- News Ticker -->
+    <section class="section-block">
+      <h2>News Ticker</h2>
+      <ul class="news-ticker">
+        <li><a href="#">New portfolio layout ships with responsive grid module.</a></li>
+        <li><a href="#">Front-end style guide updated with accessibility notes.</a></li>
+        <li><a href="#">Design team hosts workshop on rapid prototyping.</a></li>
+        <li><a href="#">Refreshed icon set released for internal tools.</a></li>
+        <li><a href="#">Case study: rethinking onboarding in under two weeks.</a></li>
+      </ul>
+    </section>
+
+  </div><!-- /.page-wrap -->
+
+</body>
+</html>
