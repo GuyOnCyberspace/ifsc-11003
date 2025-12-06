@@ -56,7 +56,7 @@
   </p>
   <p>
   The revised version of the project is available here:
-    <a href="https://guyoncyberspace.github.io/ifsc-11003/mars-rovers-revised/html/index.html">Mars Rovers — Revised Project</a>.
+    <a href="https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/index.html">Mars Rovers — Revised Project</a>.
   </p>
 </section>
 
