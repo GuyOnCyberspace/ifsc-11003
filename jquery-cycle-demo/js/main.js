@@ -9,13 +9,15 @@ $(function () {
     slides: '> img'
   });
 
-  // Quote rotator with slightly slower timing
-  $('.quote-rotator').cycle({
-    fx: 'fade',
-    speed: 600,
-    timeout: 4500,
-    slides: '> blockquote'
-  });
+  // Quote rotator with flexible height
+$('.quote-rotator').cycle({
+  fx: 'fade',
+  speed: 600,
+  timeout: 4500,
+  slides: '> blockquote',
+  slideResize: 0,
+  height: 'auto'
+});
 
   // Horizontal-scrolling news ticker
   $('.news-ticker').cycle({
