@@ -80,7 +80,7 @@ h1 {
   border: 1px solid #ccc;
   font-size: 14px;
   line-height: 1.5;
-  min-height: 120px; /* note to self: bump this up if any quote still clips */
+  min-height: 120px; /* min-height picked so tallest quote fits; increase if quotes overflow container */
 }
 
 
@@ -103,7 +103,9 @@ h1 {
   max-width: 450px;
   background: #f2f2f2;
   border: 1px solid #ccc;
+  min-height: 80px; /* min-height chosen to prevent ticker text from truncating; increase if items wrap */
 }
+
 
 .news-ticker li {
   margin: 8px 0;
