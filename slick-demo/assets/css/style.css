@@ -1,0 +1,95 @@
+/* Page background */
+body {
+  background-color: #202020;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card wrapper around the slider */
+.container {
+  width: 82vw;
+  max-width: 960px;
+  margin: 60px auto;
+  background: #050505;
+  border-radius: 18px;
+  padding: 18px 18px 30px;   /* space for dots */
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.7);
+}
+
+/* Clip the image to rounded corners */
+.fade .slick-list {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* Image */
+.fade img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Slick arrows */
+.slick-prev,
+.slick-next {
+  z-index: 2;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #f5f5f5;
+  font-size: 26px;
+  opacity: 0.8;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  opacity: 1;
+}
+
+.slick-dots {
+  position: static;         
+  margin-top: 18px;
+  text-align: center;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #777;
+  opacity: 0.6;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* Autoplay toggle (pause/play) centered under slider */
+.slick-autoplay-toggle-button {
+  display: block;
+  margin: 14px auto 0;       
+  padding: 6px 16px;
+  font-size: 13px;
+  border-radius: 999px;
+  border: 1px solid #555;
+  background: #111;
+  color: #eee;
+  cursor: pointer;
+}
+
+.slick-autoplay-toggle-button:hover {
+  background: #1b1b1b;
+  border-color: #888;
+}
+
+
+/* Subtle focus ring only while actually focused */
+.slick-autoplay-toggle-button:focus-visible,
+.slick-prev:focus-visible,
+.slick-next:focus-visible,
+.slick-dots li button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
