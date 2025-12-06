@@ -80,7 +80,9 @@ h1 {
   border: 1px solid #ccc;
   font-size: 14px;
   line-height: 1.5;
+  min-height: 120px; /* note to self: bump this up if any quote still clips */
 }
+
 
 .quote-rotator p {
   margin: 0 0 8px;
