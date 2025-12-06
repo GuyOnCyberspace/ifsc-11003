@@ -21,6 +21,9 @@
 ## Cycle Demo
  [jQuery Cycle Demo](https://guyoncyberspace.github.io/ifsc-11003/jquery-cycle-demo/index.html)
 
+ ## Carousel Demo
+[Carousel Demo – Slick](https://guyoncyberspace.github.io/ifsc-11003/slick-demo/index.html)
+
 ## Web Project Assignment 
 - [Home Page](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/index.html)
 - [Mission History](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/history.html)
@@ -65,11 +68,11 @@
   </p>
 </section>
 
-## CSS Diner Proof
+## CSS Diner 
 ![CSS Diner Proof](https://guyoncyberspace.github.io/ifsc-11003/CSS%20Diner%20Proof.png)
 
-## Flexbox Froggy Proof
+## Flexbox Froggy 
 ![Flexbox Froggy Proof](https://guyoncyberspace.github.io/ifsc-11003/Flexbox%20Froggy%20Proof.png)
 
-## Grid Garden Proof
+## Grid Garden 
 ![Grid Garden Proof](https://guyoncyberspace.github.io/ifsc-11003/Grid%20Garden%20Proof.png)
