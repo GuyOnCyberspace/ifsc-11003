@@ -16,6 +16,9 @@
 - [Two Column – Stacked](https://guyoncyberspace.github.io/ifsc-11003/css-grid-lab/grid-two-col-stacked.html)
 - [Two Column – Equal Columns](https://guyoncyberspace.github.io/ifsc-11003/css-grid-lab/grid-two-col-equal.html)
 
+## Cycle Demo
+ [jQuery Cycle Demo](https://guyoncyberspace.github.io/ifsc-11003/jquery-cycle-demo/index.html)
+
 ## Web Project Assignment 
 - [Home Page](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/index.html)
 - [Mission History](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/history.html)
