@@ -103,7 +103,7 @@ h1 {
   max-width: 450px;
   background: #f2f2f2;
   border: 1px solid #ccc;
-  min-height: 90px; /* min-height chosen to prevent ticker text from truncating; increase if items wrap */
+  min-height: 82px; /* min-height chosen to prevent ticker text from truncating; increase if items wrap */
 }
 
 
