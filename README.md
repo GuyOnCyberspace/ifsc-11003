@@ -24,10 +24,10 @@
  ## Carousel Demo
 [Carousel Demo – Slick](https://guyoncyberspace.github.io/ifsc-11003/slick-demo/index.html)
 
-## Web Project Assignment 
-- [Home Page](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/index.html)
-- [Mission History](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/history.html)
-- [FAQ](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers/html/faq.html)
+## Mars Rovers First Draft
+- [Home Page](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers-draft/html/index.html)
+- [Mission History](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers-draft/html/history.html)
+- [FAQ](https://guyoncyberspace.github.io/ifsc-11003/mars-rovers-draft/html/faq.html)
 
  <section id="progressive-enhancement-thoughts">
   <h2>Thoughts on Progressive Enhancement</h2>
