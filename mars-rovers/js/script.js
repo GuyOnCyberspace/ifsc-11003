@@ -14,12 +14,12 @@
         body.removeAttribute('data-theme');
         window.localStorage.setItem('mars-theme', 'dark');
         toggle.textContent = 'Dark Mode';
-        toggle.setAttribute =('aria-pressed', 'false');
+        toggle.setAttribute('aria-pressed', 'false');
       } else {
         body.setAttribute('data-theme', 'light');
         window.localStorage.setItem('mars-theme', 'light');
         toggle.textContent = 'Light Mode';
-        toggle.setAttribute =('aria-pressed', 'true');
+        toggle.setAttribute('aria-pressed', 'true');
       }
     });
 
