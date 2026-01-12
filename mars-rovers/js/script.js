@@ -8,13 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const savedTheme = localStorage.getItem('mars-theme');
-  if (isLight) {
-    body.removeAttribute('data-theme');
-    localStorage.removeItem('mars-theme');
-  } else {
-    body.setAttribute('data-theme', 'light');
-    localStorage,setItem('mars-theme', 'light');
-  }
+  if (savedTheme === 'light') body.setAttribute('data-theme', 'light');
 
   const syncLabel = () => {
     const isLight = body.getAttribute('data-theme') === 'light';
@@ -36,4 +30,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   syncLabel();
 });
+
 
