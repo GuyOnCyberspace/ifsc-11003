@@ -4,19 +4,19 @@
   if (!toggle) return;
 
   const KEY = 'mars-theme';
-  const prefersLight = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-  const next =
-    body.getAttribute('data-theme') !== 'light' ? 'light' : 'dark';
+  const prefersLight = () =>
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: light)').matches;
 
   function applyTheme(theme) {
     const isLight = theme === 'light';
-    body.toggleAttribute('data-theme', isLight); // sets to "" when true, removes when false
-    if (isLight) body.setAttribute('data-theme', 'light');
-  } else {
-    body.removeAttribute('data-theme');
-  }
 
-    // Label describes current state
+    if (isLight) {
+      body.setAttribute('data-theme', 'light');
+    } else {
+      body.removeAttribute('data-theme'); // dark = default
+    }
+
     toggle.textContent = isLight ? 'Light Mode' : 'Dark Mode';
     toggle.setAttribute('aria-label', `Theme: ${isLight ? 'light' : 'dark'}`);
     toggle.setAttribute('aria-pressed', String(isLight));
