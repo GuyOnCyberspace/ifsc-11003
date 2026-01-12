@@ -19,7 +19,7 @@
         body.setAttribute('data-theme', 'light');
         window.localStorage.setItem('mars-theme', 'light');
         toggle.textContent = 'Light Mode';
-        toggle.setAttribue =('aria-pressed', 'true');
+        toggle.setAttribute =('aria-pressed', 'true');
       }
     });
 
