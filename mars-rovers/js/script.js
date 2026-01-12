@@ -10,6 +10,7 @@
   if (toggle) {
     toggle.addEventListener('click', function () {
       const isLight = body.getAttribute('data-theme') === 'light';
+      
       if (isLight) {
         body.removeAttribute('data-theme');
         window.localStorage.setItem('mars-theme', 'dark');
@@ -20,9 +21,7 @@
         toggle.textContent = 'Light Mode';
       }
     });
-
-    const isLightNow = body.getAttribute('data-theme') === 'light';
-    toggle.textContent = isLightNow ? 'Light Mode' : 'Dark Mode';
-    toggle.setAttribute('aria-pressed', isLightNow);
+    
+    toggle.setAttribute('aria-pressed', !isLight);
   }
 })();
