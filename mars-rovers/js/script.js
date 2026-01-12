@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage,setItem('mars-theme', 'light');
   }
   
-  if (!saved) {
-    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-    if (prefersLight) body.setAttribute('data-theme', 'light');
-  } else if (saved === 'light') {
-    body.setAttribute('data-theme', 'light');
-  }
+if (!saved) {
+  const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+  if (prefersLight) body.setAttribute('data-theme', 'light');
+} else if (saved === 'light') {
+  body.setAttribute('data-theme', 'light');
+}
 
   const syncLabel = () => {
     const isLight = body.getAttribute('data-theme') === 'light';
