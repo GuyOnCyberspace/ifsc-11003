@@ -32,7 +32,7 @@
  <section id="progressive-enhancement-thoughts">
   <h2>Thoughts on Progressive Enhancement</h2>
   <p>
-    Progressive enhancement means building a site so its core content and functionality work for every user, regardless of device or browser capability. The foundation is clean, semantic HTML. On top of that, optional layers of styling and interactivity are added for browsers that can support them. The experience improves with capability, but the essential information never becomes inaccessible.
+    Progressive enhancement means building a site so its core content and functionality work for as many users as possible, regardless of device or browser capability. The foundation is clean, semantic HTML. On top of that, optional layers of styling and interactivity are added for browsers that can support them. The experience improves with capability, but the essential information never becomes inaccessible.
   </p>
   <p>
     This approach matters in modern web development because users access the web through a wide range of devices, screen sizes, connection speeds, and assistive technologies. Progressive enhancement ensures reliability, accessibility, search‑engine clarity, and long‑term maintainability. It avoids locking essential functionality behind CSS or JavaScript and keeps the core experience durable even as technologies shift.
