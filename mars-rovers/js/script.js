@@ -1,27 +1,33 @@
-(function () {
+document.addEventListener('DOMContentLoaded', () => {
   const body = document.body;
   const toggle = document.getElementById('theme-toggle');
 
-  const savedTheme = window.localStorage.getItem('mars-theme');
-  if (savedTheme === 'light') {
-    body.setAttribute('data-theme', 'light');
+  if (!toggle) {
+    console.warn('Theme toggle button not found.');
+    return;
   }
 
-  if (toggle) {
-    toggle.addEventListener('click', function () {
-      const isLight = body.getAttribute('data-theme') === 'light';
-      if (isLight) {
-        body.removeAttribute('data-theme');
-        window.localStorage.setItem('mars-theme', 'dark');
-        toggle.textContent = 'Dark Mode';
-      } else {
-        body.setAttribute('data-theme', 'light');
-        window.localStorage.setItem('mars-theme', 'light');
-        toggle.textContent = 'Light Mode';
-      }
-    });
+  const savedTheme = localStorage.getItem('mars-theme');
+  if (savedTheme === 'light') body.setAttribute('data-theme', 'light');
 
-    const isLightNow = body.getAttribute('data-theme') === 'light';
-    toggle.textContent = isLightNow ? 'Light Mode' : 'Dark Mode';
-  }
-})();
+  const syncLabel = () => {
+    const isLight = body.getAttribute('data-theme') === 'light';
+    toggle.textContent = isLight ? 'Light Mode' : 'Dark Mode';
+    toggle.setAttribute('aria-pressed', String(isLight));
+  };
+
+  toggle.addEventListener('click', () => {
+    const isLight = body.getAttribute('data-theme') === 'light';
+    if (isLight) {
+      body.removeAttribute('data-theme');
+      localStorage.setItem('mars-theme', 'dark');
+    } else {
+      body.setAttribute('data-theme', 'light');
+      localStorage.setItem('mars-theme', 'light');
+    }
+    syncLabel();
+  });
+
+  syncLabel();
+});
+
