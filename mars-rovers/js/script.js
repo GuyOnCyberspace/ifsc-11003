@@ -8,7 +8,7 @@
   if (prefersLight) {
     body.setAttribute('data-theme', 'light');
   }
-}
+
 
   if (toggle) {
     toggle.addEventListener('click', function () {
