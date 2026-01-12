@@ -10,6 +10,9 @@
     const isLight = theme === 'light';
     body.toggleAttribute('data-theme', isLight); // sets to "" when true, removes when false
     if (isLight) body.setAttribute('data-theme', 'light');
+  } else {
+    body.removeAttribute('data-theme');
+  }
 
     // Label describes current state
     toggle.textContent = isLight ? 'Light Mode' : 'Dark Mode';
