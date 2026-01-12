@@ -14,12 +14,12 @@
         body.removeAttribute('data-theme');
         window.localStorage.setItem('mars-theme', 'dark');
         toggle.textContent = 'Dark Mode';
-        toggle.setAttribute('aria-pressed', 'false');
+        toggle.setAttribute('aria-pressed', isLightNow ? 'true' : 'false');
       } else {
         body.setAttribute('data-theme', 'light');
         window.localStorage.setItem('mars-theme', 'light');
         toggle.textContent = 'Light Mode';
-        toggle.setAttribute('aria-pressed', 'true');
+        toggle.setAttribute('aria-pressed', isLightNow ? 'true' : 'false');
       }
     });
 
@@ -27,4 +27,12 @@
     toggle.textContent = isLightNow ? 'Light Mode' : 'Dark Mode';
     toggle.setAttribute('aria-pressed', isLightNow);
   }
+  
+if (!savedTheme) {
+  const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+  if (prefersLight) {
+    body.setAttribute('data-theme', 'light');
+  }
+}
+
 })();
