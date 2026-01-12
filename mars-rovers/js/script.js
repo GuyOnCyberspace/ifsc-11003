@@ -3,11 +3,17 @@
   const toggle = document.getElementById('theme-toggle');
 
   const savedTheme = window.localStorage.getItem('mars-theme');
-  if (!savedTheme) {
+  
+  if (savedTheme === 'light') {
+  body.setAttribute('data-theme', 'light');
+} else if (savedTheme === 'dark') {
+  body.removeAttribute('data-theme');
+} else {
   const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
   if (prefersLight) {
     body.setAttribute('data-theme', 'light');
   }
+}
 
 
   if (toggle) {
@@ -29,6 +35,6 @@
 
     const isLightNow = body.getAttribute('data-theme') === 'light';
     toggle.textContent = isLightNow ? 'Light Mode' : 'Dark Mode';
-    toggle.setAttribute('aria-pressed', isLightNow ? 'true' : 'false);
+    toggle.setAttribute('aria-pressed', isLightNow ? 'true' : 'false');
   }
 })();
