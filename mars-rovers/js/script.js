@@ -25,5 +25,4 @@
     toggle.textContent = isLightNow ? 'Light Mode' : 'Dark Mode';
     toggle.setAttribute('aria-pressed', isLightNow);
   }
-
 })();
