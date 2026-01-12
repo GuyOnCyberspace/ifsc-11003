@@ -20,7 +20,6 @@
         window.localStorage.setItem('mars-theme', 'light');
         toggle.textContent = 'Light Mode';
       }
-    });
     
     toggle.setAttribute('aria-pressed', !isLight);
   }
