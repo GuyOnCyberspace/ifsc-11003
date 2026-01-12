@@ -5,6 +5,8 @@
 
   const KEY = 'mars-theme';
   const prefersLight = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  const next =
+    body.getAttribute('data-theme') !== 'light' ? 'light' : 'dark';
 
   function applyTheme(theme) {
     const isLight = theme === 'light';
