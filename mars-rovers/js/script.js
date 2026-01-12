@@ -13,12 +13,12 @@
       if (isLight) {
         body.removeAttribute('data-theme');
         window.localStorage.setItem('mars-theme', 'dark');
-        toggle.textContent = 'Light Mode';
+        toggle.textContent = 'Dark Mode';
         toggle.setAttribute =('aria-pressed', 'false');
       } else {
         body.setAttribute('data-theme', 'light');
         window.localStorage.setItem('mars-theme', 'light');
-        toggle.textContent = 'Dark Mode';
+        toggle.textContent = 'Light Mode';
         toggle.setAttribue =('aria-pressed', 'true');
       }
     });
